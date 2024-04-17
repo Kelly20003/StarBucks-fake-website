@@ -1,0 +1,72 @@
+<!DOCTPE>
+    <html>
+
+    <head>
+        <title> StarBuks Coffe </title>
+        <link href="css/style.css" rel="stylesheet" />
+        <meta nome="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+
+    </head>
+    <script>
+        window.addEventListener('mouseover', initLandbot, { once: true });
+        window.addEventListener('touchstart', initLandbot, { once: true });
+        var myLandbot;
+        function initLandbot() {
+          if (!myLandbot) {
+            var s = document.createElement('script');s.type = 'text/javascript';s.async = true;
+            s.addEventListener('load', function() {
+              var myLandbot = new Landbot.Livechat({
+                configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-1686913-U16UW024VTVR07FR/index.json',
+              });
+            });
+            s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+          }
+        }
+        </script>
+    <body>
+
+        <header>
+            <div class="center">
+                <div class="logo"><img src="img/Starbucks_logo-pequena.png" /></div></--logo-->
+                <div class="menu">
+                    <a href="#"> Home</a>
+                    <a href="#"> About</a>
+                    <a href="#"> Menu</a>
+                    <a href="#"> What's New</a>
+                    <p> </p>
+                </div>
+            </div>
+        </header>
+        <section class="sobre">
+            <div class="extras">
+                <img src="img/cafe.prin_resized.png" />
+                <div class="social-midia">
+                    <a herf=""></a><img src="img/facebook_resized_resized.png" /></a>
+                    <a herf=""></a><img src="img/twitter_resized.png" /></a>
+                    <a herf=""></a><img src="img/logo-instagram-png-fundo-transparente5_resized.webp" /></a>
+                </div>
+            </div>
+            <div class="texto-sobre">
+                <h1>It's not just coffee<br />It's <span style="color:green;">StarBucks</span></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus venenatis ante, id
+                    placerat nulla rhoncus non. Nunc nec leo leo. In ut odio a erat facilisis facilisis eget ut est.
+                    Phasellus eu lectus cursus, ornare felis et, sollicitudin metus. In hac habitasse platea
+                    dictumst. Duis ultricies lectus elit, ac rutrum diam tincidunt et. Proin mattis risus in augue
+                    varius vehicula </p>
+                <button>Learn More</button>
+            </div>
+            </div>
+            <div class=" adicionais">
+                <a herf=""></a><img src="img/Starbucks-img.baixoTransparent_resized.png" /></a>
+                <a herf=""></a><img src="img/_starbucks- img.baixo-coffee-png-transparent_resized_resized.png" /></a>
+                <a herf=""></a><img src="img/Starbucks-img.baixoTransparent_resized.png" /></a>
+
+            </div>
+        </section>
+
+    </body>
+
+    </html>

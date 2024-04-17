@@ -1,1 +1,1 @@
-<img scr="capa.png">
+<img scr="img/capa.png">
